@@ -101,6 +101,27 @@ Method `hitungBiayaDasar()` dioverride di setiap jenis laptop.
 
 ---
 
+Pada aplikasi **Sistem Manajemen Servis Laptop** terdapat beberapa relasi antar class:
+
+### 1. Association → `Main` dengan `TransaksiServis`
+Class `Main` berhubungan dengan `TransaksiServis` karena digunakan untuk:
+- Menambah data
+- Menampilkan data
+- Mengedit data
+- Mencari data
+
+Relasi ini bersifat **Association** karena `Main` hanya menggunakan objek `TransaksiServis` tanpa memilikinya secara permanen.
+
+---
+
+### 2. Aggregation → `TransaksiServis` dengan `Pelanggan`
+Setiap transaksi servis **memiliki data pelanggan**, tetapi data pelanggan tetap bisa ada walaupun transaksi dihapus.
+
+Contoh di kode:
+```java
+private Pelanggan pelanggan;
+```
+
 ## 📂 Struktur Project
 
 ```java
