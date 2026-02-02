@@ -12,7 +12,7 @@
 
 <br>
 
-🎓 **Dibuat oleh:**  
+**Dibuat oleh:**  
 ### **[M DAFA DWI SAPUTRA]**  
 **NIM:** [24552011320]  
 **Kelas:** [TIF RP 24E]
@@ -144,7 +144,7 @@ sistemmanajemenservicelaptop/
 
 ## ▶️ Cara Menjalankan Program
 1. Clone repository:
-git clone https://github.com/USERNAME/NAMA-REPO.git
+git clone https://github.com/SzukoD/UAS-PBO_Aplikasi-Sistem-Manajemen-Servis-Laptop.git
 
 
 2. Buka di NetBeans / IntelliJ / VSCode  
